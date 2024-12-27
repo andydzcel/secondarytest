@@ -1,7 +1,6 @@
 name: myownworkflow
 on:
-  discussion_comment:
-    types: [created, deleted, edited]
+  create
 jobs:
   # This workflow contains a single job called "build"
   build:
